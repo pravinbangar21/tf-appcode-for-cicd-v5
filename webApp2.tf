@@ -63,7 +63,7 @@ user_data = <<-EOF
             sudo yum install httpd -y
             sudo service httpd start
             sudo chkconfig httpd on
-            echo "<html><h1>Hello...Pravin Bangar _VOISv...!!! Your terraform CICD PipleLine worked !!!</h1></html>" | sudo tee /var/www/html/index.html
+            echo "<html><h1>Hello...Pravin Bangar 29oct2021...!!! Your terraform CICD PipleLine worked !!!</h1></html>" | sudo tee /var/www/html/index.html
             hostname -f >> /var/www/html/index.html
             EOF
 
